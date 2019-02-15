@@ -30,12 +30,11 @@ module.exports = {
              template : './index.html'      // 将 index.html作为生成的abc.html的模板    
          }),
          new CopyWebpackPlugin([
-             {
-                 from : './lib/jquery.min.js',
-                 to : 'lib'
-             }
+            {
+                from : '',
+                to : ''
+            }
          ])
-        
      ],
 
      //解析
